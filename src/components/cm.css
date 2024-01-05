@@ -1,0 +1,20 @@
+.bgImg{
+    background-image: url('https://shoptropicals.com/cdn/shop/articles/AdobeStock_317521483_1080x.jpg?v=1661872128');
+    position: relative;
+   
+    
+}
+.shadow{
+    background-color: rgba(0, 0, 0, 0.447);
+    content: '';
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    
+}
+.bgimages{
+    background-image: url('img.jpg');
+    
+   
+    
+}
