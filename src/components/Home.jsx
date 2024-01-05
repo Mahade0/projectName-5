@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './Header'
 import Hero from './Hero'
 
-const home = () => {
+const Home = () => {
   return (
     <>
     <div className='bg-[#EBA83B] w-full h-[80vh] md:h-[100vh] px-4 md:px-28'>
@@ -13,4 +13,4 @@ const home = () => {
   )
 }
 
-export default home
+export default Home

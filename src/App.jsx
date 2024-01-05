@@ -1,11 +1,10 @@
-import { useState } from 'react'
-import Home from './components/home'
 
+import Home from './components/Home'
 import './App.css'
 import Community from './components/Community'
 import Value from './components/Value'
 import Foter from './components/Foter'
-import Gotobtn from './components/Gotobtn'
+
 
 function App() {
 
