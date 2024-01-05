@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { FaArrowUp } from "react-icons/fa6";
-import './fainmation.css'
+import './animation.css'
 
 const Gotobtn = () => {
   const [visible,setIsVisible]=useState(false)

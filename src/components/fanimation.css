@@ -51,18 +51,3 @@ footer .wave#wave4{
         background-position-x: 0px;
     }
 }
-
-.bouns{
-    animation: animate 3s ease-in-out infinite;
-}
-@keyframes animate{
-    0%{
-        transform: translateY(-8px);
-    }
-    50%{
-        transform: translateY(8px);
-    }
-    100%{
-        transform: translateY(-8px);
-    }
-}
