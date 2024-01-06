@@ -12,7 +12,7 @@ function App() {
   return (
     <>
      
-    <div>
+    <div className='overflow-hidden'>
     <Home />
     <Community />
     <Value />

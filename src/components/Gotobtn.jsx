@@ -8,7 +8,7 @@ const Gotobtn = () => {
         window.scrollTo({top:0,left:0,behavior:'smooth'})
     }
     const handleScroll =()=>{
-      let heightScroll=250;
+      let heightScroll=150;
       const winScroll=document.body.scrollTop || document.documentElement.scrollTop;
       if(winScroll>heightScroll){
            setIsVisible(true)

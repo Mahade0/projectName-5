@@ -25,7 +25,7 @@ const Hero = () => {
         <h1 className='font-bold text-4xl uppercase text-[#2A4516] md:text-[110px] md:ml-2 mt-10 md:mt-16 ml-8  absolute'>
           {text}
         </h1>
-        <motion.p className='md:text-3xl text-[14] text-justify mt-8 text-white md:text-end '
+        <motion.p className='md:text-3xl text-[14] text-justify mt-4 text-white md:text-end '
         initial={{x:400,opacity:0}}
         whileInView={{x:0,opacity:1}}
         transition={{delay:1,
