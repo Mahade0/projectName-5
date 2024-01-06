@@ -20,7 +20,7 @@ const Header = () => {
         <motion.div className={`${togle?'block ':'hidden '} z-50 fixed duration-300 w-full md:w-[30%] h-[100vh] rounded-l-[25px]  bg-black/80 top-0 -right-32 p-6 flex flex-col gap-8 pt-8 `} 
         
         >
-          <span onClick={()=>setTogle(false)}><ImCross  className='text-2xl text-white font-semibold absolute right-[35%] cursor-pointer mt-2'/></span>
+          <span onClick={()=>setTogle(false)}><ImCross  className='text-2xl text-white font-semibold absolute right-[40%] md:[35%] cursor-pointer mt-2'/></span>
           <div className='flex flex-col gap-8'>
             <h4 className='text-2xl text-[#fecc60]'>OR Festival</h4>
             <ul className='flex flex-col gap-4 pl-8'>

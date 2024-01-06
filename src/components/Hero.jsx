@@ -18,14 +18,14 @@ const Hero = () => {
   return (
     <div className='relative w-full h-full flex items-start md:items-center md:mt-0 mt-10 justify-center'>
       <div className='absolute -left-4 -top-6 md:-left-[115px]'>
-        <img src="https://oneworldfamily.com/_nuxt/monstera-small.1919168b.webp" alt="img" className='max-w-[200px] md:max-w-full' />
+        <img src="https://oneworldfamily.com/_nuxt/monstera-small.1919168b.webp" alt="img" className='max-w-[200px] lg:max-w-[400px]  xl:max-w-[600px] 2xl:max-w-full'  />
       </div>
       <div className='flex items-center md:items-end gap-16 md:gap-28 flex-col md:w-[60%] mt-[180px] md:mt-0 overflow-hidden'>
         <h2 className='text-xl md:text-4xl font-semibold text-[#FAFAFF]'>RETURN TO</h2>
-        <h1 className='font-bold text-4xl uppercase text-[#2A4516] md:text-[110px] md:ml-2 mt-10 md:mt-16 ml-8  absolute'>
+        <h1 className='font-bold text-4xl uppercase text-[#2A4516] lg:text-[80px] xl:text-[90px] md:ml-2 mt-10 md:mt-20 ml-8  absolute'>
           {text}
         </h1>
-        <motion.p className='md:text-3xl text-[14] text-justify mt-4 text-white md:text-end '
+        <motion.p className='2xl:text-3xl lg:text-xl xl:text-2xl text-[14] text-justify mt-4 text-white md:text-end '
         initial={{x:400,opacity:0}}
         whileInView={{x:0,opacity:1}}
         transition={{delay:1,
